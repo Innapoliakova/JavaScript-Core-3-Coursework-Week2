@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: brown;
+}
+
+.comic-image {
+    width: 50%;
+    height: 60%;
+}
+
+#but {
+    display: flex;
+    text-align: center;
+    color: black;
+}
