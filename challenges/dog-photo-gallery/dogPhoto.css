@@ -1,0 +1,45 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color:blue ;
+}
+
+button {
+    display:inline;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin-right: auto;
+    margin-left: 17rem;
+}
+
+#dog-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+#dog-gallery li {
+    width: 25%;
+    margin: 1rem;
+    text-align: center;
+}
+
+#dog-gallery img {
+    max-width: 100%;
+    border-radius: 5%;
+}
+
+#fetch-dog {
+    color: blue;
+}
+
+#clear-gallery {
+        color: blue;
+    }
